@@ -3,7 +3,7 @@ return {
 	config = function()
 		require("numbers").setup({
 			excluded_filetypes = {
-				"nerdtree",
+				"neo-tree",
 				"unite",
 			},
 		})

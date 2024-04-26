@@ -11,6 +11,7 @@
 - nvim-lspconfig
 - cmp-nvim-lsp
 - numbers.nvim
+- alpha-nvim
 ## Files tree 
 ~/.config/nvim/
 ```
@@ -19,6 +20,7 @@
 ├── lazyvim.json
 ├── lua
 │   ├── plugins
+│   │   ├── alpha.lua
 │   │   ├── colorscheme.lua
 │   │   ├── completions.lua
 │   │   ├── lsp-config.lua
