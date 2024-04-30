@@ -4,6 +4,7 @@ return {
 		tag = "0.1.6",
 		dependencies = { "nvim-lua/plenary.nvim" },
 		config = function()
+---@diagnostic disable-next-line: missing-parameter
 			require("telescope").setup()
 			local builtin = require("telescope.builtin")
 			vim.keymap.set("n", "<C-p>", builtin.find_files, {})
