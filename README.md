@@ -19,6 +19,7 @@
 ├── lazy-lock.json
 ├── lazyvim.json
 ├── lua
+│   ├── keymap.lua
 │   ├── plugins
 │   │   ├── alpha.lua
 │   │   ├── colorscheme.lua
