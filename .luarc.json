@@ -1,6 +1,7 @@
 {
     "diagnostics.globals": [
         "vim",
-        "color_overrides"
+        "color_overrides",
+        "local"
     ],
 }
