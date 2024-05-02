@@ -15,6 +15,9 @@
 - alpha-nvim
 - autopairs
 - which-key
+- indent-blankline
+- oil.nvim
+- nvim-colorizer.lua
 
 ## Files tree 
 ~/.config/nvim/
@@ -27,6 +30,8 @@
 │   ├── plugins
 │   │   ├── alpha.lua
 │   │   ├── autopairs.lua
+│   │   ├── blankline.lua
+│   │   ├── colorizer.lua
 │   │   ├── colorscheme.lua
 │   │   ├── completions.lua
 │   │   ├── lsp-config.lua
@@ -35,6 +40,7 @@
 │   │   ├── neotree.lua
 │   │   ├── none-ls.lua
 │   │   ├── numbers.lua
+│   │   ├── oil.lua
 │   │   ├── telescope.lua
 │   │   ├── treesitter.lua
 │   │   └── which-key.lua

@@ -3,7 +3,4 @@
         "vim",
         "color_overrides"
     ],
-    "diagnostics.disable": [
-        "inject-field"
-    ]
 }
