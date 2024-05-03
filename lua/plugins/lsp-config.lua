@@ -72,6 +72,16 @@ return {
 					capabilities = capabilities,
 				})
 			end,
+			["texlab"] = function()
+				lspconfig["texlab"].setup({
+					capabilities = capabilities,
+				})
+			end,
+			["taplo"] = function()
+				lspconfig["taplo"].setup({
+					capabilities = capabilities,
+				})
+			end,
 			["pylsp"] = function()
 				lspconfig["pylsp"].setup({
 					capabilities = capabilities,
