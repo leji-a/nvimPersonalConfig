@@ -18,6 +18,7 @@
 - indent-blankline
 - oil.nvim
 - nvim-colorizer.lua
+- bufferline.nvim
 
 ## Files tree 
 ~/.config/nvim/
@@ -31,6 +32,7 @@
 │   │   ├── alpha.lua
 │   │   ├── autopairs.lua
 │   │   ├── blankline.lua
+│   │   ├── bufferline.lua
 │   │   ├── colorizer.lua
 │   │   ├── colorscheme.lua
 │   │   ├── completions.lua
