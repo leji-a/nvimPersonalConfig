@@ -19,6 +19,8 @@
 - oil.nvim
 - nvim-colorizer.lua
 - bufferline.nvim
+- twilight.nvim
+- noice.nvim
 
 ## Files tree 
 ~/.config/nvim/
@@ -40,11 +42,13 @@
 │   │   ├── lualine.lua
 │   │   ├── mason.lua
 │   │   ├── neotree.lua
+│   │   ├── noice.lua
 │   │   ├── none-ls.lua
 │   │   ├── numbers.lua
 │   │   ├── oil.lua
 │   │   ├── telescope.lua
 │   │   ├── treesitter.lua
+│   │   ├── twiling.lua
 │   │   └── which-key.lua
 │   └── vim-settings.lua
 └── README.md

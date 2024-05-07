@@ -8,3 +8,5 @@ vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
 vim.keymap.set("n", "<C-f>", ":Neotree toggle filesystem reveal left<CR>")
 -- oil nvim
 vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+-- Twilight
+vim.keymap.set("n", "<C-t>", ":Twilight<CR>", {desc = "Open twilight"})
