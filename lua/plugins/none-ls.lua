@@ -1,14 +1,15 @@
 return {
-  "nvimtools/none-ls.nvim",
-  config = function()
-    local null_ls = require("null-ls")
-    null_ls.setup({
-      sources = { -- Add more languages to format
-        null_ls.builtins.formatting.stylua,
-        null_ls.builtins.formatting.black,
-        null_ls.builtins.formatting.isort,
-        null_ls.builtins.formatting.prettier,
-      },
-    })
-  end,
+	"nvimtools/none-ls.nvim",
+	config = function()
+		local null_ls = require("null-ls")
+		null_ls.setup({
+			sources = { -- Add more languages to format
+				null_ls.builtins.formatting.stylua,
+				null_ls.builtins.formatting.black,
+				null_ls.builtins.formatting.isort,
+				null_ls.builtins.formatting.prettier,
+				null_ls.builtins.formatting.latexindent,
+			},
+		})
+	end,
 }

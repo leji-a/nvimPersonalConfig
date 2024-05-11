@@ -72,6 +72,11 @@ return {
 					capabilities = capabilities,
 				})
 			end,
+			["harper_ls"] = function()
+				lspconfig["harper_ls"].setup({
+					capabilities = capabilities,
+				})
+			end,
 			["texlab"] = function()
 				lspconfig["texlab"].setup({
 					capabilities = capabilities,
