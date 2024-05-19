@@ -21,10 +21,15 @@
 - bufferline.nvim
 - twilight.nvim
 - noice.nvim
+- compiler
+- nvim-dap
+- nvim-dap-ui
+
 
 ## Files tree 
 ~/.config/nvim/
 ```
+
 ├── init.lua
 ├── lazy-lock.json
 ├── lazyvim.json
@@ -34,9 +39,9 @@
 │   │   ├── alpha.lua
 │   │   ├── autopairs.lua
 │   │   ├── blankline.lua
-│   │   ├── bufferline.lua
 │   │   ├── colorizer.lua
 │   │   ├── colorscheme.lua
+│   │   ├── compiler.lua
 │   │   ├── completions.lua
 │   │   ├── lsp-config.lua
 │   │   ├── lualine.lua
@@ -45,6 +50,7 @@
 │   │   ├── noice.lua
 │   │   ├── none-ls.lua
 │   │   ├── numbers.lua
+│   │   ├── nvim-dap.lua
 │   │   ├── oil.lua
 │   │   ├── telescope.lua
 │   │   ├── treesitter.lua
