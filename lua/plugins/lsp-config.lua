@@ -66,9 +66,14 @@ return {
 			vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
 		end
 		mason_lspconfig.setup_handlers({
-			-- default handler for installed servers
+			-- Default handler for installed servers
 			function(server_name)
 				lspconfig[server_name].setup({
+					capabilities = capabilities,
+				})
+			end,
+			["csharp_ls"] = function()
+				lspconfig["csharp_ls"].setup({
 					capabilities = capabilities,
 				})
 			end,
@@ -98,7 +103,7 @@ return {
 				})
 			end,
 			["emmet_ls"] = function()
-				-- configure emmet language server
+				-- config Emmett language server
 				lspconfig["emmet_ls"].setup({
 					capabilities = capabilities,
 					filetypes = {

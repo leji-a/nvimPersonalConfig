@@ -32,6 +32,7 @@ return {
 				"pylsp",
 				"taplo",
 				"harper_ls",
+				"csharp_ls",
 			},
 		})
 		mason_tool_installer.setup({
