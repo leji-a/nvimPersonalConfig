@@ -22,8 +22,7 @@
 - twilight.nvim
 - noice.nvim
 - compiler
-- nvim-dap
-- nvim-dap-ui
+- rustaceanvim
 
 
 ## Files tree 
@@ -52,6 +51,7 @@
 │   │   ├── numbers.lua
 │   │   ├── nvim-dap.lua
 │   │   ├── oil.lua
+│   │   ├── rustacean.lua
 │   │   ├── telescope.lua
 │   │   ├── treesitter.lua
 │   │   ├── twiling.lua
