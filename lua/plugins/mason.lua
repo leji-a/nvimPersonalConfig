@@ -29,9 +29,7 @@ return {
 				"emmet_ls",
 				"pyright",
 				"rust_analyzer",
-				"pylsp",
 				"taplo",
-				"harper_ls",
 				"csharp_ls",
 			},
 		})
