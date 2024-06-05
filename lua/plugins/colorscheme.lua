@@ -39,5 +39,13 @@ local hybrid = {
 		vim.cmd("colorscheme hybrid")
 	end,
 }
+local abstract_cs = {
+	"Abstract-IDE/Abstract-cs",
+	priority = 1000,
+	opts = {},
+	config = function()
+		vim.cmd("colorscheme abscs")
+	end,
+}
 
 return gruvbox

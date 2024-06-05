@@ -9,7 +9,7 @@ return {
 				none_ls.black,
 				none_ls.isort,
 				none_ls.prettier,
-				-- none_ls.latexindent,
+				none_ls.clang_format,
 			},
 		})
 	end,

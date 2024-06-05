@@ -31,6 +31,7 @@ return {
 				"rust_analyzer",
 				"taplo",
 				"csharp_ls",
+				"clangd",
 			},
 		})
 		mason_tool_installer.setup({
@@ -42,6 +43,7 @@ return {
 				"pylint",
 				"eslint_d",
 				"latexindent",
+				"clang-format",
 			},
 		})
 	end,

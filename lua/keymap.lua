@@ -2,7 +2,7 @@ local key = vim.keymap.set
 local nkey = vim.api.nvim_set_keymap
 -- Neovim
 key("n", "<leader>7", function()
-  vim.cmd(":nohlsearch")
+	vim.cmd(":nohlsearch")
 end, { noremap = true })
 -- None-ls
 key("n", "<leader>gf", vim.lsp.buf.format, {})
@@ -16,13 +16,15 @@ key("n", "<C-t>", "<cmd>Twilight<cr>", { desc = "Open twilight" })
 nkey("n", "<F6>", "<cmd>CompilerOpen<cr>", { noremap = true, silent = true })
 -- Redo last selected option
 nkey(
-  "n",
-  "<S-F6>",
-  "<cmd>CompilerStop<cr>" -- (Optional, to dispose all tasks before redo)
-  .. "<cmd>CompilerRedo<cr>",
-  { noremap = true, silent = true }
+	"n",
+	"<S-F6>",
+	"<cmd>CompilerStop<cr>" -- (Optional, to dispose all tasks before redo)
+		.. "<cmd>CompilerRedo<cr>",
+	{ noremap = true, silent = true }
 )
 -- Toggle compiler results
 nkey("n", "<S-F7>", "<cmd>CompilerToggleResults<cr>", { noremap = true, silent = true })
 -- Telescope oldfiles
 key("n", "<leader>r", "<cmd>Telescope oldfiles<cr>")
+-- Noice
+key("n", "<leader>cn", "<cmd>NoiceDismiss<cr>")

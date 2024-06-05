@@ -10,7 +10,6 @@
 - nvim-cmp
 - mason.nvim
 - nvim-lspconfig
-- cmp-nvim-lsp
 - numbers.nvim
 - alpha-nvim
 - autopairs
@@ -20,13 +19,12 @@
 - nvim-colorizer.lua
 - bufferline.nvim
 - twilight.nvim
-- noice.nvim
+- fidget.nvim
 - compiler
 
 ## Files tree 
 ~/.config/nvim/
 ```
-
 ├── init.lua
 ├── lazy-lock.json
 ├── lazyvim.json
@@ -40,11 +38,11 @@
 │   │   ├── colorscheme.lua
 │   │   ├── compiler.lua
 │   │   ├── completions.lua
+│   │   ├── fidget.lua
 │   │   ├── lsp-config.lua
 │   │   ├── lualine.lua
 │   │   ├── mason.lua
 │   │   ├── neotree.lua
-│   │   ├── noice.lua
 │   │   ├── none-ls.lua
 │   │   ├── numbers.lua
 │   │   ├── oil.lua

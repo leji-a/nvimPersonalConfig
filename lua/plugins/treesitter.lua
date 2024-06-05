@@ -13,6 +13,7 @@ return {
         "toml",
         "html",
         "css",
+        "cpp",
       },
       highlight = { enable = true },
       indent = { enable = true },
